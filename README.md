@@ -1,7 +1,9 @@
 # kafka-proto-monitor
 
-🛠️ A simple CLI debug utility for monitoring Kafka topics for the specific
-messages and decode them using protobuf definitions.
+[![Lints](https://github.com/ri-nat/kafka-proto-monitor/actions/workflows/lints.yml/badge.svg)](https://github.com/ri-nat/kafka-proto-monitor/actions/workflows/lints.yml)
+[![Tests](https://github.com/ri-nat/kafka-proto-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/ri-nat/kafka-proto-monitor/actions/workflows/tests.yml)
+
+🛠️ A simple CLI utility for monitoring protobuf-encoded messages in Kafka topics.
 
 Under the hood, `kafka-proto-monitor` relies on [protoreflect](https://github.com/jhump/protoreflect) in order to use raw (not compiled) proto files in runtime for unmarshaling Kafka messages.
 
