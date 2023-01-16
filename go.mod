@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
 	github.com/jessevdk/go-flags v1.5.0
-	github.com/jhump/protoreflect v1.14.0
+	github.com/jhump/protoreflect v1.14.1
 )
 
 require (
